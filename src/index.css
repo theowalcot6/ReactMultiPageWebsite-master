@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.349);
+}
+
+/*-----------------HOME----------------------*/
+.font-weight-light {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Roboto';
+  font-size: 7vw;
+}
+
+/*----------------LIGHT----------------------*/
+#light .col-lg-7 {
+  position:relative;
+  text-align: center;
+  color:white;
+}
+
+/*-----------------DARK----------------------*/
+#dark .col-lg-7 {
+  position:relative;
+  text-align: center;
+  color:rgb(225, 95, 34);
+}
+
+
+/*-----------------ABOUT---------------------*/
+.about-image {
+  width: 25%;
+  padding: 20px;
+}
+
+.whole-about {
+  padding: 20px;
+}
+
+.font-weight-light2 {
+  margin-left:10%;
+}
+
+.about-paragraph {
+  margin-left:10%;
+}
+/*----------------LIGHT----------------------*/
+#light .about-body {
+  position:absolute;
+  background-color: #fff;
+}
+
+#light .about-text-container {
+  width: 60%;
+  float: left;
+  padding: 20px;
+  color:rgb(0, 0, 0)
+}
+/*----------------DARK----------------------*/
+#dark .about-body {
+  position:absolute;
+  background-color: rgb(0, 0, 0);
+  min-height:88.1%;
+}
+
+#dark .about-text-container {
+  width: 60%;
+  float: left;
+  padding: 20px;
+  color:rgb(255, 255, 255);
+}
+
+/*-----------------NAV---------------------*/
+.nav-container {
+  display:flex
+}
+
+.img-nav {
+  flex: 1;
+}
+
+.list-nav {
+  width:450px;
+  height:60px;
+}
+
+.nav-item {
+  display:inline-block;
+  padding:20px
+}
+
+.nav-item-cv {
+  display:inline-block;
+}
+
+.navbar-nav-ml-auto {
+  padding:0;
+  margin:0;
+  height:60px;
+}
+
+.sec-cv {
+  padding:20px;
+}
+
+.cv-container {
+  padding:20px;
+}
+
+/*-----------------LIGHT---------------------*/
+#light .navigation {
+  background-color:rgba(251, 139, 36, 0.608);
+  height:60px
+}
+
+#light .button-nav {
+  background-color:rgb(0,0,0,0);
+  color:white;
+  font-size:0.9em;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 10px 30px;
+  cursor:pointer;
+}
+
+/*-----------------DARK---------------------*/
+#dark .navigation {
+  background-color:rgba(187, 94, 7, 0.596);
+  height:60px
+}
+
+#dark .button-nav {
+  background-color:rgb(0,0,0,0);
+  color:rgb(102, 52, 220);
+  font-size:0.9em;
+  border: 2px solid rgb(102, 52, 220);
+  border-radius: 8px;
+  padding: 10px 30px;
+  cursor:pointer;
+}
+
+
+/*-----------------MODE---------------------*/
+.switch {
+  float:left;
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:20px;
+}
+
+.mode-text {
+  margin-top:25px;
+}
+/*-----------------VENTURES---------------------*/
+.ventures-container {
+  margin-left:54px;
+  margin-top:64px;
+}
+
+.nft-img-container {
+  overflow:hidden;
+  width:250px;
+  height:250px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 20px 20px 0px 0px;
+  background-image: url('./assets/AI-NFT.jpg');
+  background-position:84% 32%;
+  background-size:306px;
+}
+
+.nft-text-container {
+  width:250px;
+  height:70px;
+  overflow:hidden;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nft-p {
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.home {
+  margin-left:54px;
+}
+
+.project-container {
+  width:250px;
+}
+
+/*-----------------PROJECTS---------------------*/
+.blockchain-img-container {
+  overflow:hidden;
+  width:250px;
+  height:250px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 20px 20px 0px 0px;
+  background-image: url('./assets/Blockchain Voting System.png');
+  background-position:-10% 20%;
+  background-size:340px;
+}
